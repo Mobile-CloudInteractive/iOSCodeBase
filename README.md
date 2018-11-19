@@ -8,6 +8,27 @@
 ## 規則
 一定要寫說明，至少要一行，可以寫在 .h 檔 method 的上方，或是另外寫 README.md
 
+## CIFoundation
+基本的格式檢查，放的是專案共用的東西
+
+--
+### CIFormatter
+
+// 檢查是不是此字串是不是全數字</p>
+```+ (BOOL)isDecimal:(NSString*)string;```
+
+// 檢查此字串是不是符合台灣手機格式</p>
+```+ (BOOL)checkMobileNumber:(NSString *)mobileNumber;```
+
+// 版本號檢查,如果 version 2 比 version 大</p>
+```+ (BOOL)checkNeedUpdateFrom:(NSString*)version1
+          needUpdateVersion:(NSString*)version2;```
+
+// email 檢查,目前設定字元數為 2 ~ 100</p>
+```+ (BOOL)checkEmailFormatIsValid:(NSString*)email;```
+
+--
+
 ## Coding Style
 
 目前 follow Ray Wenderich  
