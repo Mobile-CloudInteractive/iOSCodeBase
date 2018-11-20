@@ -13,6 +13,10 @@
 		73DC9DB321A295EF00C69875 /* CIFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DC9DB121A295EF00C69875 /* CIFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73DC9DB421A295EF00C69875 /* CIFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9DB221A295EF00C69875 /* CIFormatter.m */; };
 		73DC9DB521A295EF00C69875 /* CIFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9DB221A295EF00C69875 /* CIFormatter.m */; };
+		73DC9DF521A3A8F000C69875 /* CIAlertFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 73DC9DF321A3A8F000C69875 /* CIAlertFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73DC9DF621A3A8F000C69875 /* CIAlertFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */; };
+		73DC9DF721A3A8F000C69875 /* CIAlertFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */; };
+		73DC9DF921A3A9FB00C69875 /* CIAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9DF821A3A9FB00C69875 /* CIAlertTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 		73DC9DA721A295CE00C69875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73DC9DB121A295EF00C69875 /* CIFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIFormatter.h; sourceTree = "<group>"; };
 		73DC9DB221A295EF00C69875 /* CIFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIFormatter.m; sourceTree = "<group>"; };
+		73DC9DF321A3A8F000C69875 /* CIAlertFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIAlertFactory.h; sourceTree = "<group>"; };
+		73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIAlertFactory.m; sourceTree = "<group>"; };
+		73DC9DF821A3A9FB00C69875 /* CIAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIAlertTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +87,8 @@
 				73DC9D9B21A295CE00C69875 /* Info.plist */,
 				73DC9DB121A295EF00C69875 /* CIFormatter.h */,
 				73DC9DB221A295EF00C69875 /* CIFormatter.m */,
+				73DC9DF321A3A8F000C69875 /* CIAlertFactory.h */,
+				73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */,
 			);
 			path = CIFoundation;
 			sourceTree = "<group>";
@@ -87,6 +96,7 @@
 		73DC9DA421A295CE00C69875 /* CIFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
+				73DC9DF821A3A9FB00C69875 /* CIAlertTests.m */,
 				73DC9DA521A295CE00C69875 /* CIFoundationTests.m */,
 				73DC9DA721A295CE00C69875 /* Info.plist */,
 			);
@@ -101,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73DC9DA821A295CE00C69875 /* CIFoundation.h in Headers */,
+				73DC9DF521A3A8F000C69875 /* CIAlertFactory.h in Headers */,
 				73DC9DB321A295EF00C69875 /* CIFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73DC9DB421A295EF00C69875 /* CIFormatter.m in Sources */,
+				73DC9DF621A3A8F000C69875 /* CIAlertFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,7 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73DC9DF921A3A9FB00C69875 /* CIAlertTests.m in Sources */,
 				73DC9DB521A295EF00C69875 /* CIFormatter.m in Sources */,
+				73DC9DF721A3A8F000C69875 /* CIAlertFactory.m in Sources */,
 				73DC9DA621A295CE00C69875 /* CIFoundationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
