@@ -28,6 +28,17 @@
 ```+ (BOOL)checkEmailFormatIsValid:(NSString*)email;```
 
 --
+### CIAlertFactory
+
+
+// 生出一個 alert controller,不帶 action, action 在生出後自己客製化增加</p>
+```+ (UIAlertController*)createAlertWithoutAction:(NSString*)title message:(NSString*)message;```
+
+
+// 生出一個簡單 alert controller, 點擊後自動消失,沒有其他作用</p>
+```+ (UIAlertController*)createSimpleAlert:(NSString*)title message:(NSString*)message actionTitle:(NSString*)actionTitle;```
+
+
 
 ## Coding Style
 
