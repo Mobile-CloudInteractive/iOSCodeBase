@@ -12,14 +12,14 @@
 
 + (UIAlertController *)createAlertWithoutAction:(NSString *)title message:(NSString *)message {
     
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertActionStyleDefault];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
     
     return alertController;
 }
 
 + (UIAlertController *)createSimpleAlert:(NSString *)title message:(NSString *)message actionTitle:(NSString *)actionTitle {
     
-    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertActionStyleDefault];
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *action = [UIAlertAction actionWithTitle:actionTitle style:UIAlertActionStyleDefault handler:nil];
     
