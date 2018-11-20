@@ -18,10 +18,12 @@ NS_ASSUME_NONNULL_BEGIN
 // 檢查此字串是不是符合台灣手機格式
 + (BOOL)checkMobileNumber:(NSString *)mobileNumber;
 
-// 版本號檢查，如果 version 2 比 version 大
+// 版本號檢查,如果 version 2 比 version 大
 + (BOOL)checkNeedUpdateFrom:(NSString*)version1
           needUpdateVersion:(NSString*)version2;
 
+// email 檢查,目前設定字元數為 2 ~ 100
++ (BOOL)checkEmailFormatIsValid:(NSString*)email;
 @end
 
 NS_ASSUME_NONNULL_END
