@@ -17,6 +17,10 @@
 		73DC9DF621A3A8F000C69875 /* CIAlertFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */; };
 		73DC9DF721A3A8F000C69875 /* CIAlertFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */; };
 		73DC9DF921A3A9FB00C69875 /* CIAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73DC9DF821A3A9FB00C69875 /* CIAlertTests.m */; };
+		73E550D221A54B8600A2E490 /* CINumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E550D021A54B8600A2E490 /* CINumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73E550D321A54B8600A2E490 /* CINumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E550D121A54B8600A2E490 /* CINumberFormatter.m */; };
+		73E550D421A54B8600A2E490 /* CINumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E550D121A54B8600A2E490 /* CINumberFormatter.m */; };
+		73E550D621A54BB200A2E490 /* CINumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E550D521A54BB200A2E490 /* CINumberFormatterTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +45,9 @@
 		73DC9DF321A3A8F000C69875 /* CIAlertFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIAlertFactory.h; sourceTree = "<group>"; };
 		73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIAlertFactory.m; sourceTree = "<group>"; };
 		73DC9DF821A3A9FB00C69875 /* CIAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIAlertTests.m; sourceTree = "<group>"; };
+		73E550D021A54B8600A2E490 /* CINumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CINumberFormatter.h; sourceTree = "<group>"; };
+		73E550D121A54B8600A2E490 /* CINumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CINumberFormatter.m; sourceTree = "<group>"; };
+		73E550D521A54BB200A2E490 /* CINumberFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CINumberFormatterTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +96,8 @@
 				73DC9DB221A295EF00C69875 /* CIFormatter.m */,
 				73DC9DF321A3A8F000C69875 /* CIAlertFactory.h */,
 				73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */,
+				73E550D021A54B8600A2E490 /* CINumberFormatter.h */,
+				73E550D121A54B8600A2E490 /* CINumberFormatter.m */,
 			);
 			path = CIFoundation;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 		73DC9DA421A295CE00C69875 /* CIFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
+				73E550D521A54BB200A2E490 /* CINumberFormatterTests.m */,
 				73DC9DF821A3A9FB00C69875 /* CIAlertTests.m */,
 				73DC9DA521A295CE00C69875 /* CIFoundationTests.m */,
 				73DC9DA721A295CE00C69875 /* Info.plist */,
@@ -112,6 +122,7 @@
 			files = (
 				73DC9DA821A295CE00C69875 /* CIFoundation.h in Headers */,
 				73DC9DF521A3A8F000C69875 /* CIAlertFactory.h in Headers */,
+				73E550D221A54B8600A2E490 /* CINumberFormatter.h in Headers */,
 				73DC9DB321A295EF00C69875 /* CIFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E550D321A54B8600A2E490 /* CINumberFormatter.m in Sources */,
 				73DC9DB421A295EF00C69875 /* CIFormatter.m in Sources */,
 				73DC9DF621A3A8F000C69875 /* CIAlertFactory.m in Sources */,
 			);
@@ -243,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				73DC9DF921A3A9FB00C69875 /* CIAlertTests.m in Sources */,
+				73E550D621A54BB200A2E490 /* CINumberFormatterTests.m in Sources */,
 				73DC9DB521A295EF00C69875 /* CIFormatter.m in Sources */,
+				73E550D421A54B8600A2E490 /* CINumberFormatter.m in Sources */,
 				73DC9DF721A3A8F000C69875 /* CIAlertFactory.m in Sources */,
 				73DC9DA621A295CE00C69875 /* CIFoundationTests.m in Sources */,
 			);
