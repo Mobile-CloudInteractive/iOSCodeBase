@@ -38,6 +38,11 @@
 // 生出一個簡單 alert controller, 點擊後自動消失,沒有其他作用</p>
 ```+ (UIAlertController*)createSimpleAlert:(NSString*)title message:(NSString*)message actionTitle:(NSString*)actionTitle;```
 
+--
+### CINumberFormatter
+
+// 把一個 double 數字加上千分位,還可以設定小數點到幾位,小數點不足會補0</p>
+```+ (NSString*)roundOff:(double)input fractionDigits:(NSInteger)fractionDigits;```
 
 
 ## Coding Style

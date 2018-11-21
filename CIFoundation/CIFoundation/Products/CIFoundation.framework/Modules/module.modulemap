@@ -1,6 +1,0 @@
-framework module CIFoundation {
-  umbrella header "CIFoundation.h"
-
-  export *
-  module * { export * }
-}
