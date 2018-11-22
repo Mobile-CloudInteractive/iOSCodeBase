@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char CIFoundationVersionString[];
 
 #import <CIFoundation/CIFormatter.h>
 #import <CIFoundation/CIAlertFactory.h>
+#import <CIFoundation/CINumberFormatter.h>
