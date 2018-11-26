@@ -57,7 +57,7 @@ Pod::Spec.new do |s|
   s.author             = { "Mobile team" => "mobile@cloud-interactive.com" }
   # Or just: s.author    = "Mobile team"
   # s.authors            = { "Mobile team" => "mobile@cloud-interactive.com" }
-  # s.social_media_url   = "http://twitter.com/Marvin Lin"
+  # s.social_media_url   = "http://twitter.com/Mobile"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -92,9 +92,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "CIAppKit/**/*.{h,m}"
-  # s.source_files  = "CIAppKit", "CIAppKit/**/*.{h,m}"
-  s.exclude_files = "CIAppKit/**/*.plist"
+  # s.source_files  = "CIAppKit/**/*.{h,m}"
+  s.source_files  = "CIAppKit", "CIAppKit/**/*.{h,m}"
+  s.exclude_files = "CIAppKit/CIAppKit/*.plist"
 
   # s.public_header_files = "Classes/**/*.h"
 
