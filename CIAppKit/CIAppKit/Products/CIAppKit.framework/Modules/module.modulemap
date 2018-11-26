@@ -1,0 +1,6 @@
+framework module CIAppKit {
+  umbrella header "CIAppKit.h"
+
+  export *
+  module * { export * }
+}

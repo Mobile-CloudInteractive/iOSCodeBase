@@ -127,6 +127,7 @@
 				7334058421ABC19800A31DB6 /* Sources */,
 				7334058521ABC19800A31DB6 /* Frameworks */,
 				7334058621ABC19800A31DB6 /* Resources */,
+				733405E321ABF1AF00A31DB6 /* For different environment */,
 			);
 			buildRules = (
 			);
@@ -206,6 +207,27 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		733405E321ABF1AF00A31DB6 /* For different environment */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "For different environment";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [ \"${ACTION}\" = \"build\" ]\nthen\nINSTALL_DIR=${SRCROOT}/Products/${PROJECT_NAME}.framework\n\nDEVICE_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphoneos/${PROJECT_NAME}.framework\n\nSIMULATOR_DIR=${BUILD_ROOT}/${CONFIGURATION}-iphonesimulator/${PROJECT_NAME}.framework\n\n\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n#ditto \"${DEVICE_DIR}/Headers\" \"${INSTALL_DIR}/Headers\"\n\nlipo -create \"${DEVICE_DIR}/${PROJECT_NAME}\" \"${SIMULATOR_DIR}/${PROJECT_NAME}\" -output \"${INSTALL_DIR}/${PROJECT_NAME}\"\n\n#open \"${DEVICE_DIR}\"\nopen \"${SRCROOT}/Products\"\nfi\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7334058421ABC19800A31DB6 /* Sources */ = {
