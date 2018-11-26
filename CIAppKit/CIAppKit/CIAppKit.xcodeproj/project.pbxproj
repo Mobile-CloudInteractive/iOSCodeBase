@@ -11,7 +11,6 @@
 		7334059721ABC19800A31DB6 /* CIAppKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334059621ABC19800A31DB6 /* CIAppKitTests.m */; };
 		7334059921ABC19800A31DB6 /* CIAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7334058B21ABC19800A31DB6 /* CIAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		733405B321ABC1FA00A31DB6 /* CIFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 733405AE21ABC1F900A31DB6 /* CIFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		733405B421ABC1FA00A31DB6 /* CIFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 733405AF21ABC1F900A31DB6 /* CIFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		733405B521ABC1FA00A31DB6 /* CINumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733405B021ABC1F900A31DB6 /* CINumberFormatter.m */; };
 		733405B621ABC1FA00A31DB6 /* CINumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733405B021ABC1F900A31DB6 /* CINumberFormatter.m */; };
 		733405B721ABC1FA00A31DB6 /* CIFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733405B121ABC1F900A31DB6 /* CIFormatter.m */; };
@@ -38,7 +37,6 @@
 		7334059621ABC19800A31DB6 /* CIAppKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIAppKitTests.m; sourceTree = "<group>"; };
 		7334059821ABC19800A31DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		733405AE21ABC1F900A31DB6 /* CIFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIFormatter.h; sourceTree = "<group>"; };
-		733405AF21ABC1F900A31DB6 /* CIFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIFoundation.h; sourceTree = "<group>"; };
 		733405B021ABC1F900A31DB6 /* CINumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CINumberFormatter.m; sourceTree = "<group>"; };
 		733405B121ABC1F900A31DB6 /* CIFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIFormatter.m; sourceTree = "<group>"; };
 		733405B221ABC1F900A31DB6 /* CINumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CINumberFormatter.h; sourceTree = "<group>"; };
@@ -89,7 +87,6 @@
 				7334058C21ABC19800A31DB6 /* Info.plist */,
 				733405AE21ABC1F900A31DB6 /* CIFormatter.h */,
 				733405B121ABC1F900A31DB6 /* CIFormatter.m */,
-				733405AF21ABC1F900A31DB6 /* CIFoundation.h */,
 				733405B221ABC1F900A31DB6 /* CINumberFormatter.h */,
 				733405B021ABC1F900A31DB6 /* CINumberFormatter.m */,
 			);
@@ -114,7 +111,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7334059921ABC19800A31DB6 /* CIAppKit.h in Headers */,
-				733405B421ABC1FA00A31DB6 /* CIFoundation.h in Headers */,
 				733405B921ABC1FA00A31DB6 /* CINumberFormatter.h in Headers */,
 				733405B321ABC1FA00A31DB6 /* CIFormatter.h in Headers */,
 			);
