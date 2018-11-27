@@ -19,44 +19,41 @@
 
 // 檢查是不是此字串是不是全數字<br>
 
-```+ (BOOL)isDecimal:(NSString*)string;```
+```objective-c
++ (BOOL)isDecimal:(NSString*)string;
+```
 
 
 // 檢查此字串是不是符合台灣手機格式<br>
 
-```+ (BOOL)checkMobileNumber:(NSString *)mobileNumber;```
+```objective-c
++ (BOOL)checkMobileNumber:(NSString *)mobileNumber;
+```
 
 
 // 版本號檢查,如果 version 2 比 version 大<br>
 
-```+ (BOOL)checkNeedUpdateFrom:(NSString*)version1
-          needUpdateVersion:(NSString*)version2;```
+```objective-c
++ (BOOL)checkNeedUpdateFrom:(NSString*)version1
+          needUpdateVersion:(NSString*)version2;
+```
 
 
 // email 檢查,目前設定字元數為 2 ~ 100<br>
 
-```+ (BOOL)checkEmailFormatIsValid:(NSString*)email;```
-
---
-### CIAlertFactory
-
-
-// 生出一個 alert controller,不帶 action, action 在生出後自己客製化增加<br>
-
-```+ (UIAlertController*)createAlertWithoutAction:(NSString*)title message:(NSString*)message;```
+```objective-c
++ (BOOL)checkEmailFormatIsValid:(NSString*)email;
+```
 
 
-// 生出一個簡單 alert controller, 點擊後自動消失,沒有其他作用<br>
-
-```+ (UIAlertController*)createSimpleAlert:(NSString*)title message:(NSString*)message actionTitle:(NSString*)actionTitle;```
-
---
 ### CINumberFormatter
 
 
 // 把一個 double 數字加上千分位,還可以設定小數點到幾位,小數點不足會補0<br>
 
-```+ (NSString*)roundOff:(double)input fractionDigits:(NSInteger)fractionDigits;```
+```objective-c
++ (NSString*)roundOff:(double)input fractionDigits:(NSInteger)fractionDigits;
+```
 
 
 ## Coding Style
