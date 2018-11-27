@@ -12,7 +12,20 @@
 		733405B521ABC1FA00A31DB6 /* CINumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733405B021ABC1F900A31DB6 /* CINumberFormatter.m */; };
 		733405B721ABC1FA00A31DB6 /* CIFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733405B121ABC1F900A31DB6 /* CIFormatter.m */; };
 		733405B921ABC1FA00A31DB6 /* CINumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 733405B221ABC1F900A31DB6 /* CINumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7334060B21ACEC6C00A31DB6 /* CIAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7334058821ABC19800A31DB6 /* CIAppKit.framework */; };
+		7334061321ACED9F00A31DB6 /* CIAppKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334061121ACED9F00A31DB6 /* CIAppKitTests.m */; };
+		7334061421ACED9F00A31DB6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7334061221ACED9F00A31DB6 /* Info.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7334060C21ACEC6C00A31DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7334057F21ABC19800A31DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7334058721ABC19800A31DB6;
+			remoteInfo = CIAppKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7334058821ABC19800A31DB6 /* CIAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CIAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +35,9 @@
 		733405B021ABC1F900A31DB6 /* CINumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CINumberFormatter.m; sourceTree = "<group>"; };
 		733405B121ABC1F900A31DB6 /* CIFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIFormatter.m; sourceTree = "<group>"; };
 		733405B221ABC1F900A31DB6 /* CINumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CINumberFormatter.h; sourceTree = "<group>"; };
+		7334060621ACEC6C00A31DB6 /* CIAppKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIAppKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7334061121ACED9F00A31DB6 /* CIAppKitTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIAppKitTests.m; sourceTree = "<group>"; };
+		7334061221ACED9F00A31DB6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7334060321ACEC6C00A31DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334060B21ACEC6C00A31DB6 /* CIAppKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -39,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				7334058A21ABC19800A31DB6 /* CIAppKit */,
+				7334060721ACEC6C00A31DB6 /* CIAppKitTests */,
 				7334058921ABC19800A31DB6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				7334058821ABC19800A31DB6 /* CIAppKit.framework */,
+				7334060621ACEC6C00A31DB6 /* CIAppKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +88,15 @@
 				733405B021ABC1F900A31DB6 /* CINumberFormatter.m */,
 			);
 			path = CIAppKit;
+			sourceTree = "<group>";
+		};
+		7334060721ACEC6C00A31DB6 /* CIAppKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				7334061121ACED9F00A31DB6 /* CIAppKitTests.m */,
+				7334061221ACED9F00A31DB6 /* Info.plist */,
+			);
+			path = CIAppKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +133,24 @@
 			productReference = 7334058821ABC19800A31DB6 /* CIAppKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7334060521ACEC6C00A31DB6 /* CIAppKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7334061021ACEC6C00A31DB6 /* Build configuration list for PBXNativeTarget "CIAppKitTests" */;
+			buildPhases = (
+				7334060221ACEC6C00A31DB6 /* Sources */,
+				7334060321ACEC6C00A31DB6 /* Frameworks */,
+				7334060421ACEC6C00A31DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7334060D21ACEC6C00A31DB6 /* PBXTargetDependency */,
+			);
+			name = CIAppKitTests;
+			productName = CIAppKitTests;
+			productReference = 7334060621ACEC6C00A31DB6 /* CIAppKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -108,6 +161,9 @@
 				ORGANIZATIONNAME = MobileTeam;
 				TargetAttributes = {
 					7334058721ABC19800A31DB6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					7334060521ACEC6C00A31DB6 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -125,6 +181,7 @@
 			projectRoot = "";
 			targets = (
 				7334058721ABC19800A31DB6 /* CIAppKit */,
+				7334060521ACEC6C00A31DB6 /* CIAppKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -134,6 +191,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7334060421ACEC6C00A31DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334061421ACED9F00A31DB6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +214,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7334060221ACEC6C00A31DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7334061321ACED9F00A31DB6 /* CIAppKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7334060D21ACEC6C00A31DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7334058721ABC19800A31DB6 /* CIAppKit */;
+			targetProxy = 7334060C21ACEC6C00A31DB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7334059A21ABC19800A31DB6 /* Debug */ = {
@@ -320,6 +401,40 @@
 			};
 			name = Release;
 		};
+		7334060E21ACEC6C00A31DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L53G22BMA9;
+				INFOPLIST_FILE = CIAppKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloud-interactive.CIAppKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7334060F21ACEC6C00A31DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L53G22BMA9;
+				INFOPLIST_FILE = CIAppKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cloud-interactive.CIAppKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +452,15 @@
 			buildConfigurations = (
 				7334059D21ABC19800A31DB6 /* Debug */,
 				7334059E21ABC19800A31DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7334061021ACEC6C00A31DB6 /* Build configuration list for PBXNativeTarget "CIAppKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7334060E21ACEC6C00A31DB6 /* Debug */,
+				7334060F21ACEC6C00A31DB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
