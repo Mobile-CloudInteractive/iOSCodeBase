@@ -21,6 +21,8 @@
 		73E550D321A54B8600A2E490 /* CINumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E550D121A54B8600A2E490 /* CINumberFormatter.m */; };
 		73E550D421A54B8600A2E490 /* CINumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E550D121A54B8600A2E490 /* CINumberFormatter.m */; };
 		73E550D621A54BB200A2E490 /* CINumberFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73E550D521A54BB200A2E490 /* CINumberFormatterTests.m */; };
+		EFC1380721B663F000775301 /* CILockPatternView.h in Headers */ = {isa = PBXBuildFile; fileRef = EFC1380521B663F000775301 /* CILockPatternView.h */; };
+		EFC1380821B663F000775301 /* CILockPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1380621B663F000775301 /* CILockPatternView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		73E550D021A54B8600A2E490 /* CINumberFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CINumberFormatter.h; sourceTree = "<group>"; };
 		73E550D121A54B8600A2E490 /* CINumberFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CINumberFormatter.m; sourceTree = "<group>"; };
 		73E550D521A54BB200A2E490 /* CINumberFormatterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CINumberFormatterTests.m; sourceTree = "<group>"; };
+		EFC1380521B663F000775301 /* CILockPatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CILockPatternView.h; sourceTree = "<group>"; };
+		EFC1380621B663F000775301 /* CILockPatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CILockPatternView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				73DC9DF421A3A8F000C69875 /* CIAlertFactory.m */,
 				73E550D021A54B8600A2E490 /* CINumberFormatter.h */,
 				73E550D121A54B8600A2E490 /* CINumberFormatter.m */,
+				EFC1380521B663F000775301 /* CILockPatternView.h */,
+				EFC1380621B663F000775301 /* CILockPatternView.m */,
 			);
 			path = CIFoundation;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 				73DC9DA821A295CE00C69875 /* CIFoundation.h in Headers */,
 				73DC9DF521A3A8F000C69875 /* CIAlertFactory.h in Headers */,
 				73E550D221A54B8600A2E490 /* CINumberFormatter.h in Headers */,
+				EFC1380721B663F000775301 /* CILockPatternView.h in Headers */,
 				73DC9DB321A295EF00C69875 /* CIFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC1380821B663F000775301 /* CILockPatternView.m in Sources */,
 				73E550D321A54B8600A2E490 /* CINumberFormatter.m in Sources */,
 				73DC9DB421A295EF00C69875 /* CIFormatter.m in Sources */,
 				73DC9DF621A3A8F000C69875 /* CIAlertFactory.m in Sources */,
