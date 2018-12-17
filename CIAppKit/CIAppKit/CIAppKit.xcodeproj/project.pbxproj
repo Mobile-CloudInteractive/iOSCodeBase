@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7320A0B921C7C5050017EFB8 /* CILockPatternView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7320A0B721C7C5050017EFB8 /* CILockPatternView.h */; };
+		7320A0B921C7C5050017EFB8 /* CILockPatternView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7320A0B721C7C5050017EFB8 /* CILockPatternView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7320A0BA21C7C5060017EFB8 /* CILockPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320A0B821C7C5050017EFB8 /* CILockPatternView.m */; };
 		7320A0BB21C7C5060017EFB8 /* CILockPatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320A0B821C7C5050017EFB8 /* CILockPatternView.m */; };
+		7320A0BF21C7C55F0017EFB8 /* NSString+URLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 7320A0BD21C7C55F0017EFB8 /* NSString+URLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7320A0C021C7C55F0017EFB8 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320A0BE21C7C55F0017EFB8 /* NSString+URLEncoding.m */; };
+		7320A0C121C7C55F0017EFB8 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320A0BE21C7C55F0017EFB8 /* NSString+URLEncoding.m */; };
 		7334059921ABC19800A31DB6 /* CIAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 7334058B21ABC19800A31DB6 /* CIAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		733405B321ABC1FA00A31DB6 /* CIFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 733405AE21ABC1F900A31DB6 /* CIFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		733405B521ABC1FA00A31DB6 /* CINumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 733405B021ABC1F900A31DB6 /* CINumberFormatter.m */; };
@@ -17,7 +20,6 @@
 		733405B921ABC1FA00A31DB6 /* CINumberFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 733405B221ABC1F900A31DB6 /* CINumberFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7334060B21ACEC6C00A31DB6 /* CIAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7334058821ABC19800A31DB6 /* CIAppKit.framework */; };
 		7334061321ACED9F00A31DB6 /* CIAppKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7334061121ACED9F00A31DB6 /* CIAppKitTests.m */; };
-		7334061421ACED9F00A31DB6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7334061221ACED9F00A31DB6 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		7320A0B721C7C5050017EFB8 /* CILockPatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CILockPatternView.h; sourceTree = "<group>"; };
 		7320A0B821C7C5050017EFB8 /* CILockPatternView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CILockPatternView.m; sourceTree = "<group>"; };
+		7320A0BD21C7C55F0017EFB8 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		7320A0BE21C7C55F0017EFB8 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		7334058821ABC19800A31DB6 /* CIAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CIAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7334058B21ABC19800A31DB6 /* CIAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIAppKit.h; sourceTree = "<group>"; };
 		7334058C21ABC19800A31DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -64,6 +68,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7320A0BC21C7C52B0017EFB8 /* Category+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7320A0BD21C7C55F0017EFB8 /* NSString+URLEncoding.h */,
+				7320A0BE21C7C55F0017EFB8 /* NSString+URLEncoding.m */,
+			);
+			path = "Category+Extension";
+			sourceTree = "<group>";
+		};
 		7334057E21ABC19800A31DB6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,7 @@
 		7334058A21ABC19800A31DB6 /* CIAppKit */ = {
 			isa = PBXGroup;
 			children = (
+				7320A0BC21C7C52B0017EFB8 /* Category+Extension */,
 				7334058B21ABC19800A31DB6 /* CIAppKit.h */,
 				7334058C21ABC19800A31DB6 /* Info.plist */,
 				733405AE21ABC1F900A31DB6 /* CIFormatter.h */,
@@ -115,8 +129,9 @@
 			files = (
 				7334059921ABC19800A31DB6 /* CIAppKit.h in Headers */,
 				733405B921ABC1FA00A31DB6 /* CINumberFormatter.h in Headers */,
-				733405B321ABC1FA00A31DB6 /* CIFormatter.h in Headers */,
+				7320A0BF21C7C55F0017EFB8 /* NSString+URLEncoding.h in Headers */,
 				7320A0B921C7C5050017EFB8 /* CILockPatternView.h in Headers */,
+				733405B321ABC1FA00A31DB6 /* CIFormatter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +221,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7334061421ACED9F00A31DB6 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +233,7 @@
 			files = (
 				7320A0BA21C7C5060017EFB8 /* CILockPatternView.m in Sources */,
 				733405B721ABC1FA00A31DB6 /* CIFormatter.m in Sources */,
+				7320A0C021C7C55F0017EFB8 /* NSString+URLEncoding.m in Sources */,
 				733405B521ABC1FA00A31DB6 /* CINumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7320A0C121C7C55F0017EFB8 /* NSString+URLEncoding.m in Sources */,
 				7320A0BB21C7C5060017EFB8 /* CILockPatternView.m in Sources */,
 				7334061321ACED9F00A31DB6 /* CIAppKitTests.m in Sources */,
 			);

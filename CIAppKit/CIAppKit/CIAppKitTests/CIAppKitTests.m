@@ -8,6 +8,7 @@
 
 #import <XCTest/XCTest.h>
 #import "CIFormatter.h"
+#import "NSString+URLEncoding.h"
 
 @interface CIAppKitTests : XCTestCase
 
@@ -179,7 +180,21 @@
     
     XCTAssertTrue(resultIsEmail3);
     
+}
+
+- (void)test_nsstringURLEncoding {
     
+    NSString *url1 = @"https://中文網站";
+    
+    NSString *encodedURL1 = [url1 stringByAddingPercentEncodingForRFC3986];
+    
+    XCTAssertTrue([encodedURL1 isEqualToString:@"https://%E4%B8%AD%E6%96%87%E7%B6%B2%E7%AB%99"]);
+    
+    NSString *url2 = @"https://第二個";
+    
+    NSString *encodedURL2 = [url2 stringByAddingPercentEncodingForRFC3986];
+    
+    XCTAssertTrue([encodedURL2 isEqualToString:@"https://%E7%AC%AC%E4%BA%8C%E5%80%8B"]);
 }
 
 @end

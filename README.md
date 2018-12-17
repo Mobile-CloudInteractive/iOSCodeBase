@@ -55,6 +55,22 @@
 + (NSString*)roundOff:(double)input fractionDigits:(NSInteger)fractionDigits;
 ```
 
+## CILockPatternView
+
+使用手勢解鎖，要設定圓點的順序。
+Inspired from **HUIPatternLockView**
+
+
+## Category + Extension
+
+### NSString+URLEncoding
+
+// 對 NSString 做百分號編碼,讓這個 NSString 可以轉成 URL 不會出現 nil<br>
+
+```objective-c
+- (nullable NSString *)stringByAddingPercentEncodingForRFC3986;
+
+```
 
 ## Coding Style
 
