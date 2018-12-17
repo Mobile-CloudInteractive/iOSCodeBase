@@ -18,3 +18,4 @@ FOUNDATION_EXPORT const unsigned char CIAppKitVersionString[];
 
 #import <CIAppKit/CIFormatter.h>
 #import <CIAppKit/CINumberFormatter.h>
+#import <CIAppKit/CILockPatternView.h>
