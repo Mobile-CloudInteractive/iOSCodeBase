@@ -74,24 +74,30 @@ Inspired from **HUIPatternLockView**
 
 ## Coding Style
 
+
 目前 follow Ray Wenderich  
 [Coding Style](https://github.com/raywenderlich/objective-c-style-guide#variables)
 
+
 ##  xcodebuild command line script
+
 
 ```
 xcodebuild \
--project CIFoundation.xcodeproj \
--scheme CIFoundation \
+-project CIAppKit.xcodeproj \
+-scheme CIAppKit \
 -sdk iphonesimulator12.1 \
 -destination 'platform=iOS Simulator,name=iPhone 8,OS=12.1' \
 test
 ```
+
 也可以加上 xcpretty --test --color 上色
 
 ## 使用這個 framework 的專案需要加上這個 build phases
 
+
 ### 目前直接在使用 cocoa pods 專案內直接 embeded 這個 framework 會過不了 App Store 的掃描，還在排查問題
+
 
 ```
 FRAMEWORK="CIFoundation"
